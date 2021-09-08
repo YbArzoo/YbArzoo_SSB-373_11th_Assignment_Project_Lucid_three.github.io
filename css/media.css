@@ -1,0 +1,116 @@
+@media (min-width:0px) and (max-width:575px){
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .hero{
+        display: none;
+    }
+    .banner_content {
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .btn_download {
+ 
+        margin-bottom: 20px;
+    }
+    .btn_view {
+     
+        margin-right: 13px;
+        margin-bottom: 20px;
+    }
+    .beautiful_device img {
+        display: none;
+    }
+    .beautiful_device {
+        text-align: center;
+
+    }
+    .beautiful_device_text h1::before {
+        left: 50%;
+        
+    }
+    .beautiful_device_text h1::after {
+        
+        right: 52%;
+        
+    }
+    .beautiful_device_text p {
+        padding-right: 0;
+        text-align: center;
+        
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .banner_content {
+        text-align: left;
+        
+        padding-top: 30px;
+    }
+    .hero{
+        margin-left: 40px;
+        width: 35%;
+    }
+    .btn_download {
+     
+        margin-bottom: 15px;
+    }
+    .btn_view {
+        margin-bottom: 15px;
+
+    }
+}
+@media (min-width:769px) and (max-width:992px){
+    .banner_content {
+        margin-top: 40px;
+    }
+
+    .hero{
+        margin-left: 15px;
+        width: 42%;
+    }
+    .btn_download {
+     
+        margin-bottom: 15px;
+    }
+    .btn_view {
+        margin-bottom: 15px;
+
+    }
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+    .nav-item{
+        text-align: center;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px){
+    .banner_content {
+        margin-top: 40px;
+    }
+    .btn_download {
+     
+        margin-bottom: 15px;
+    }
+    .btn_view {
+       margin-bottom: 15px;
+
+    }
+}
